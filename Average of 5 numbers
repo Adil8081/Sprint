@@ -1,0 +1,19 @@
+3 start
+one:1 already_added:0
+num_of_ele:5
+e1:11 e2:12 e3:13 e4:14 e5:15
+sum:0
+avg:0
+temp:5
+const:5
+halt:9
+start: 1 address:e1 sum sum
+1 address one address
+1 already_added one already_added
+4 already_added num_of_ele 34
+3 start
+5 sum const 48
+2 sum const sum
+1 avg one avg
+3 34
+3 halt
