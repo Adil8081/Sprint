@@ -1,0 +1,27 @@
+3 start 
+first_element_location:56
+length:5
+begin:0
+end:0
+temp:0
+one:1
+start:2 length one temp
+7 first_element_location begin
+1 begin temp end
+loop:5 begin end move
+halt:9
+move:7 begin help1
+7 begin help2
+7 end help3
+7 end help4
+7 help1:0 temp
+7 help3:0 help2:0
+7 temp help4:0
+1 begin one begin
+2 end one end
+3 loop
+1
+2
+3
+4
+5
