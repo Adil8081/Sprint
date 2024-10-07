@@ -1,0 +1,17 @@
+3 start
+add_ele:44
+length:5
+target:5
+result:0
+count:1
+one:1
+hault:9
+start:7 add_ele address
+loop:5 length count hault
+4 target address:add_ele 31
+1 count one count
+1 address one address
+3 loop
+7 one result
+3 hault
+0 0 0 0 0 0 0 0 1 2 3 4 5  
