@@ -1,0 +1,33 @@
+3 7 
+seq_location:67
+seq_length:3
+cycle_location:70
+cycle_length:5
+3 start
+zero:0
+one:1
+cycle_count:0
+seq_count:0
+seq_container:0
+cycle_container:0
+hault:9
+
+start:7 cycle_location cycle_container
+7 seq_location seq_container
+loop:5 cycle_count cycle_length continue
+3 hault
+continue:5 seq_count seq_length continue2
+7 zero seq_count
+7 seq_location seq_container
+3 continue
+continue2:7 cycle_container help1
+7 seq_container help2
+7 help2:0 help1:0
+1 cycle_container one cycle_container
+1 cycle_count one cycle_count
+1 seq_count one seq_count
+1 one seq_container seq_container
+3 loop
+1
+2
+3
